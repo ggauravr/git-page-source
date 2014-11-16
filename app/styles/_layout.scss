@@ -1,0 +1,19 @@
+@for $i from 1 through 10{
+
+  .span-#{$i} {
+    width: 1% * ($i - 1);
+  }
+
+  .gutter-#{$i} {
+    margin-right: 1% * $i - 1;
+  }
+
+  .span-#{$i * 10} {
+    width: (10% * $i) - 1;
+  }
+
+  .gutter-#{$i * 10} {
+    margin-right: (10% * $i) - 1;
+  }
+
+}
