@@ -20,7 +20,7 @@ body, ul, menu, dir, p {
 
 body {
   margin: 5px;
-  font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Ubuntu, sans-serif;
   font-size: 13px;
 }
 
@@ -318,6 +318,7 @@ section {
   }
   
   .heading {
+    font-family: 'Ubuntu Condensed', sans-serif;
     color: #494E49; // #1884bb;
   }
 
